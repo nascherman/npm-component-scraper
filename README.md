@@ -6,7 +6,7 @@ of a series of keywords.
 
 ```javascript
 var KEYWORDS = ['generator', 'ui'];
-var KeywordScraper = require('./');
+var KeywordScraper = require('npm-keyword-scraper');
 
 var opts = {
   keywords: KEYWORDS,
