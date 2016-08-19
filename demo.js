@@ -9,5 +9,5 @@ var opts = {
 var keywordScraper = new KeywordScraper(opts);
 
 keywordScraper.getFromKeywords(function(modules) {
-  console.log(modules);
+  JSON.stringify(modules);
 });
