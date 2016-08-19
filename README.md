@@ -16,7 +16,7 @@ var opts = {
 var keywordScraper = new KeywordScraper(opts);
 
 keywordScraper.getFromKeywords(function(modules) {
-  JSON.stringify(modules);
+  console.log(JSON.stringify(modules));
 });
 ```
 

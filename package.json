@@ -1,0 +1,36 @@
+{
+  "name": "npm-keyword-scraper",
+  "version": "1.0.0",
+  "description": "a scraper for npm modules by keyword",
+  "main": "index.js",
+  "dependencies": {
+    "domready": "^1.0.8",
+    "got": "^6.3.0",
+    "npm-keyword": "^4.2.0",
+    "registry-url": "^3.1.0",
+    "request-sync": "^1.0.0",
+    "sync": "^0.2.5",
+    "sync-request": "^3.0.1",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nascherman/npm-keyword-scraper.git"
+  },
+  "keywords": [
+    "scraper",
+    "npm",
+    "registry",
+    "jam3"
+  ],
+  "author": "Nick Scherman <n_scherman@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nascherman/npm-keyword-scraper/issues"
+  },
+  "homepage": "https://github.com/nascherman/npm-keyword-scraper#readme"
+}
